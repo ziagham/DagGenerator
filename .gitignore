@@ -1,0 +1,6 @@
+# Rust
+target/
+
+# Generated zipped-up files
+*.zip
+*.bin
