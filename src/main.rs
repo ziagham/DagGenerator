@@ -2,7 +2,7 @@ mod data_struct;
 use data_struct::Graph;
 
 fn main() {
-    println!("Hello, world!");
+    println!("Welcome to DAG (Directed Acyclic Graph) Generator");
     let mut graph: Graph = Graph::new();
     let filename = "database.txt".to_string();
     graph.parse(filename);
