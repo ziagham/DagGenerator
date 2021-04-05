@@ -6,9 +6,6 @@ use std::io::{BufRead, BufReader};
 struct Node {
     node_id: u32,
     timestamp: u64,
-
-    // These 2 vectors represent the edges of the node in both direction
-    // Storing the edge of the graph in the node was easier than having 2 Vec in Graph
     parents: Vec<u32>,
     children: Vec<u32>,
 }
